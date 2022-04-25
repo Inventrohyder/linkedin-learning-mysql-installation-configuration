@@ -1,0 +1,32 @@
+-- SHOW ENGINES;
+-- SELECT table_name, engine
+-- 	FROM information_schema.tables
+-- 	WHERE table_schema = 'scratch';
+
+-- Create table with engine InnoDB
+-- USE scratch;
+-- DROP TABLE IF EXISTS test;
+-- CREATE TABLE IF NOT EXISTS test (
+-- 	id INT AUTO_INCREMENT PRIMARY KEY,
+--     cname VARCHAR(128),
+--     localname VARCHAR(128)
+-- ) ENGINE = InnoDB;
+-- INSERT INTO test (cname, localname) SELECT name, localname FROM world.country;
+-- SELECT COUNT(*) FROM test;
+-- SELECT * FROM test;
+-- SELECT table_name, engine FROM information_schema.tables WHERE table_schema = 'scratch';
+-- DROP TABLE IF EXISTS test;
+
+-- Create table with engine MyISAM
+-- USE scratch;
+-- DROP TABLE IF EXISTS test;
+-- CREATE TABLE IF NOT EXISTS test (
+-- 	id INT AUTO_INCREMENT PRIMARY KEY,
+--     cname VARCHAR(128),
+--     localname VARCHAR(128)
+-- ) ENGINE = MyISAM;
+-- INSERT INTO test (cname, localname) SELECT name, localname FROM world.country;
+-- SELECT COUNT(*) FROM test;
+-- SELECT * FROM test;
+-- SELECT table_name, engine FROM information_schema.tables WHERE table_schema = 'scratch';
+-- DROP TABLE IF EXISTS test;
