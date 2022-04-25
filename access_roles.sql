@@ -1,0 +1,9 @@
+-- CREATE ROLE 'app_dev', 'app_read', 'app_write';
+-- GRANT ALL ON album.* TO 'app_dev';
+-- GRANT SELECT ON album.* TO 'app_read';
+-- GRANT INSERT, UPDATE, DELETE ON album.* TO 'app_write';
+-- CREATE USER 'read1'@'localhost' IDENTIFIED BY 'TempP@55';
+-- GRANT 'app_read' TO 'read1'@'localhost';
+-- SET DEFAULT ROLE 'app_read' TO 'read1'@'localhost';
+-- DROP USER 'read1'@'localhost';
+-- DROP ROLE 'app_dev', 'app_read', 'app_write';
